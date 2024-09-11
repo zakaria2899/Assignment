@@ -1,6 +1,6 @@
 ﻿namespace Entities;
 
-public class Comments
+public class Comment
 {
     
 }

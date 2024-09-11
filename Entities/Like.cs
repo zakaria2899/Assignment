@@ -1,6 +1,6 @@
 ﻿namespace Entities;
 
-public class Likes
+public class Like
 {
     
 }
