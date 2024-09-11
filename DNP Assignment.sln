@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNP Assignment", "DNP Assignment\DNP Assignment.csproj", "{93535E52-A7BA-4AC1-B34E-909B5788FEC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{AF092F62-09C7-4D2A-90AC-1DF0BF20EE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{6D1F07CE-6645-42B7-B702-1D3C404FA65D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{93535E52-A7BA-4AC1-B34E-909B5788FEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93535E52-A7BA-4AC1-B34E-909B5788FEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93535E52-A7BA-4AC1-B34E-909B5788FEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1F07CE-6645-42B7-B702-1D3C404FA65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1F07CE-6645-42B7-B702-1D3C404FA65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1F07CE-6645-42B7-B702-1D3C404FA65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1F07CE-6645-42B7-B702-1D3C404FA65D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D1F07CE-6645-42B7-B702-1D3C404FA65D} = {AF092F62-09C7-4D2A-90AC-1DF0BF20EE2B}
 	EndGlobalSection
 EndGlobal
